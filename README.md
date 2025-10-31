@@ -2,6 +2,7 @@
 
 视觉校内赛裁判系统，提供简单例程共参考
 
+<font style="color:#DF2A3F;">**正式比赛运行时有所不同**</font>
 
 # 一、启动方法
 建议在非比赛阶段不使用docker进行工作
@@ -19,6 +20,7 @@ ros2 launch referee_pkg referee_pkg_launch.xml \
 ```
 ros2 launch camera_sim_pkg camera.launch.py
 ```
+**比赛时不需要以下操作，仅运行摄像头仿真**
 运行目标仿真
 ```
 ros2 launch target_model_pkg target_action.launch.py
