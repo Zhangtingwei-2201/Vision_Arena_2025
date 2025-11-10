@@ -11,9 +11,10 @@
 ```
 ros2 launch referee_pkg referee_pkg_launch.xml \
     TeamName:="TEAMENAME" \
-    StageSelect:=1 \
+    StageSelect:=0 \
     ModeSelect:=0
 ```
+备赛期间选择起始阶段0，恒定模式0
 ## gazebo
 
 运行摄像头仿真
@@ -59,6 +60,10 @@ docker build -t vision-vrena-2025:v0.1.3 .
 
 # 运行docker-compose.yml文件以镜像构造三个用dockernetwork链接可互相通信的容器
 docker-compose up
+
+关闭容器
+docker-compose down 
+#备赛期间可以不使用docker-compose方式运行容器，直接运行单个容器，建立网络链接。
 ```
 
 # 二、 文件结构
