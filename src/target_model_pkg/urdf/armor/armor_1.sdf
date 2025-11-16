@@ -21,7 +21,8 @@
 			<visual name="visual">
 				<geometry>
 					<mesh>
-						<uri>file://install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor.dae</uri>
+						<uri>
+							file://install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor.dae</uri>
 						<scale>7.5 5 4</scale>
 					</mesh>
 				</geometry>
@@ -35,7 +36,8 @@
 				<geometry>
 
 					<mesh>
-						<uri>file://install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor_target.dae</uri>
+						<uri>
+							file://install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor_target.dae</uri>
 						<scale>7.5 5 4</scale>
 					</mesh>
 				</geometry>
@@ -49,7 +51,8 @@
 				<geometry>
 
 					<mesh>
-						<uri>file://install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor_light_bar.dae</uri>
+						<uri>
+							file://install/target_model_pkg/share/target_model_pkg/urdf/armor/meshes/small_armor_light_bar.dae</uri>
 						<scale>7.5 5 4</scale>
 					</mesh>
 				</geometry>
@@ -70,7 +73,8 @@
 				</geometry>
 				<material>
 					<script>
-						<uri>file://install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/</uri>
+						<uri>
+							file://install/target_model_pkg/share/target_model_pkg/urdf/armor/textures/</uri>
 						<name>small_num1</name>
 					</script>
 				</material>
@@ -95,7 +99,7 @@
 				</geometry>
 			</collision>
 		</link>
-		<plugin name ="target_action" filename="libtarget_model_pkg_lib.so">
+		<plugin name="target_action" filename="libtarget_model_pkg_lib.so">
 		</plugin>
 	</model>
 </sdf>

@@ -52,6 +52,11 @@ ros2 topic pub /type std_msgs/msg/Int32 "{data: 1}"
 ```
 ros2 topic pub /pose geometry_msgs/msg/Pose "{position: {x: 1.0, y: 2.0, z: 0.5}}"
 ```
+修改模型的位置和朝向
+如果不朝向摄像头，修改orientation参数为下面的四元数
+```
+ros2 topic pub /pose geometry_msgs/msg/Pose "{position: {x: 1.0, y: 2.0, z: 0.5}, orientation: {x: 0.0, y: 0.0, z: -0.7071, w: 0.7071}}"
+```
 ## 示例选手端测试程序
 ```
 ros2 run player_pkg TestNode
