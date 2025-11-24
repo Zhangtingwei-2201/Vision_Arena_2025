@@ -1,6 +1,7 @@
 # Vision_Arena_2025
 
 视觉校内赛裁判系统，提供简单例程共参考
+更新了摄像头参数的显示
 
 <font style="color:#DF2A3F;">**正式比赛运行时有所不同**</font>
 
@@ -21,6 +22,16 @@ ros2 launch referee_pkg referee_pkg_launch.xml \
 ```
 ros2 launch camera_sim_pkg camera.launch.py
 ```
+   图像尺寸:
+     width = 640 像素
+     height = 640 像素
+     fps = 90 Hz
+     hfov = 1.047 
+   内参:
+   fx = 554.383 像素
+   fy = 554.383 像素
+   cx = 320 像素
+   cy = 320 像素
 **比赛时不需要以下操作，仅运行摄像头仿真**
 运行目标仿真
 ```

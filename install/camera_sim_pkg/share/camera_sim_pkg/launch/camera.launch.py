@@ -17,7 +17,7 @@ def generate_launch_description():
                 name='width',default_value='640',description="相机分辨率宽"
         )
         action_args_height=launch.actions.DeclareLaunchArgument(
-                name='height',default_value='480',description="相机分辨率高"
+                name='height',default_value='640',description="相机分辨率高"
         )
         action_args_fps=launch.actions.DeclareLaunchArgument(
                 name='fps',default_value='90',description="相机帧率"
