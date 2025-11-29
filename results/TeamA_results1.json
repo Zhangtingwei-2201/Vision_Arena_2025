@@ -1,0 +1,15 @@
+{
+    "RaceStage1": {
+        "average_orientationerror": 0.0,
+        "average_positionerror": 0.099,
+        "average_ringcentererror": 0.0,
+        "fps": 42,
+        "max_orientationerror": 0.0,
+        "max_positionerror": 0.099,
+        "run_id": "2fd4ffed-1f53-4e2f-a5dd-0bb91e2f25c7",
+        "score": 20.0,
+        "target_type": "Ring_red",
+        "team_name": "TeamA",
+        "timestamp": "2025-11-29T10:24:46Z"
+    }
+}

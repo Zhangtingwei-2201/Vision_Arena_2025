@@ -1,0 +1,16 @@
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/lib/libcircle.so
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/ament_index/resource_index/package_run_dependencies/circle
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/ament_index/resource_index/parent_prefix_path/circle
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/environment/ament_prefix_path.sh
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/environment/ament_prefix_path.dsv
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/environment/path.sh
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/environment/path.dsv
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/local_setup.bash
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/local_setup.sh
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/local_setup.zsh
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/local_setup.dsv
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/package.dsv
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/ament_index/resource_index/packages/circle
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/cmake/circleConfig.cmake
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/cmake/circleConfig-version.cmake
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/circle/share/circle/package.xml

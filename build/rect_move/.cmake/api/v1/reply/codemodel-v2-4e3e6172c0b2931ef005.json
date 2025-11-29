@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c134a61b7da2ed6fdb52.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rect_move",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rect_move::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rect_move-bf32aef9dd062beedb70.json",
+					"name" : "rect_move",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rect_move_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rect_move_uninstall-d344538f68eb4e877a51.json",
+					"name" : "rect_move_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e8da059ffc88735480d3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/rect_move",
+		"source" : "/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/ros_gazebo_plugin/node/src/rect_move"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

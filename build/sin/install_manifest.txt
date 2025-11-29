@@ -1,0 +1,16 @@
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/lib/libsin.so
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/ament_index/resource_index/package_run_dependencies/sin
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/ament_index/resource_index/parent_prefix_path/sin
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/environment/ament_prefix_path.sh
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/environment/ament_prefix_path.dsv
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/environment/path.sh
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/environment/path.dsv
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/local_setup.bash
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/local_setup.sh
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/local_setup.zsh
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/local_setup.dsv
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/package.dsv
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/ament_index/resource_index/packages/sin
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/cmake/sinConfig.cmake
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/cmake/sinConfig-version.cmake
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/install/sin/share/sin/package.xml

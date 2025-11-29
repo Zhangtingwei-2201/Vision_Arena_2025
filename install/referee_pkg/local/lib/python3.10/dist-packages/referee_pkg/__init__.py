@@ -1,1 +1,0 @@
-/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/__init__.py

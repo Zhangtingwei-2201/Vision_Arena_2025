@@ -1,9 +1,7 @@
 .vscode/
 .idea/
 src/referee_pkg/
-build/
 log/
-results/
 ros_gazebo_plugin/
 src/player_pkg/
 src/camera_sim_pkg/

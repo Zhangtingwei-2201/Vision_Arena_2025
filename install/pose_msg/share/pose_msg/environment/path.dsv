@@ -1,1 +1,1 @@
-/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/pose_msg/ament_cmake_environment_hooks/path.dsv
+prepend-non-duplicate-if-exists;PATH;bin

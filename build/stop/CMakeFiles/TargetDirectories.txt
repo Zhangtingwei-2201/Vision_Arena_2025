@@ -1,0 +1,10 @@
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/stop/CMakeFiles/uninstall.dir
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/stop/CMakeFiles/stop_uninstall.dir
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/stop/CMakeFiles/stop.dir
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/stop/CMakeFiles/test.dir
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/stop/CMakeFiles/edit_cache.dir
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/stop/CMakeFiles/rebuild_cache.dir
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/stop/CMakeFiles/list_install_components.dir
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/stop/CMakeFiles/install.dir
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/stop/CMakeFiles/install/local.dir
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/stop/CMakeFiles/install/strip.dir

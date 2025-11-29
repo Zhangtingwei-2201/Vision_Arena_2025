@@ -1,0 +1,4 @@
+source;share/rect_move/local_setup.bash
+source;share/rect_move/local_setup.dsv
+source;share/rect_move/local_setup.sh
+source;share/rect_move/local_setup.zsh
