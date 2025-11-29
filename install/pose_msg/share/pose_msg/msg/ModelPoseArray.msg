@@ -1,6 +1,1 @@
-std_msgs/Header header
-ModelPose[] models
-
-# 添加加密相关字段
-bool is_encrypted
-uint8[] encrypted_data
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/ros_gazebo_plugin/msg/pose_msg/msg/ModelPoseArray.msg

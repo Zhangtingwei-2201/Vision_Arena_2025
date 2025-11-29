@@ -1,3 +1,1 @@
-from referee_pkg.msg._multi_object import MultiObject  # noqa: F401
-from referee_pkg.msg._object import Object  # noqa: F401
-from referee_pkg.msg._race_stage import RaceStage  # noqa: F401
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/msg/__init__.py

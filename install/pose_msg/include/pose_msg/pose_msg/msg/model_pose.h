@@ -1,12 +1,1 @@
-// generated from rosidl_generator_c/resource/idl.h.em
-// with input from pose_msg:msg/ModelPose.idl
-// generated code does not contain a copyright notice
-
-#ifndef POSE_MSG__MSG__MODEL_POSE_H_
-#define POSE_MSG__MSG__MODEL_POSE_H_
-
-#include "pose_msg/msg/detail/model_pose__struct.h"
-#include "pose_msg/msg/detail/model_pose__functions.h"
-#include "pose_msg/msg/detail/model_pose__type_support.h"
-
-#endif  // POSE_MSG__MSG__MODEL_POSE_H_
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/pose_msg/rosidl_generator_c/pose_msg/msg/model_pose.h

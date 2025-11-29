@@ -1,4 +1,1 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(pose_msg_IDL_FILES "msg/ModelPoseArray.idl;msg/ModelPose.idl")
-set(pose_msg_INTERFACE_FILES "msg/ModelPoseArray.msg;msg/ModelPose.msg")
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/pose_msg/rosidl_cmake/rosidl_cmake-extras.cmake

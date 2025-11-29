@@ -1,2 +1,1 @@
-source;share/circle/environment/ament_prefix_path.sh
-source;share/circle/environment/path.sh
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/circle/ament_cmake_environment_hooks/local_setup.dsv

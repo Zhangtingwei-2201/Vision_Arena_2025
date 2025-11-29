@@ -1,3 +1,1 @@
-# generated from ament_package/template/environment_hook/pythonpath.sh.in
-
-ament_prepend_unique_value PYTHONPATH "$AMENT_CURRENT_PREFIX/local/lib/python3.10/dist-packages"
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/referee_pkg/ament_cmake_environment_hooks/pythonpath.sh

@@ -1,3 +1,1 @@
-geometry_msgs/Point[] modelpoint
-std_msgs/Header header
-float64 g
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/referee_pkg/rosidl_cmake/srv/HitArmor_Request.msg

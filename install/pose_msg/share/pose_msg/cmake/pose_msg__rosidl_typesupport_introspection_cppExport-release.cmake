@@ -1,15 +1,15 @@
 #----------------------------------------------------------------
-# Generated CMake target import file.
+# Generated CMake target import file for configuration "Release".
 #----------------------------------------------------------------
 
 # Commands may need to know the format version.
 set(CMAKE_IMPORT_FILE_VERSION 1)
 
-# Import target "pose_msg::pose_msg__rosidl_typesupport_introspection_cpp" for configuration ""
-set_property(TARGET pose_msg::pose_msg__rosidl_typesupport_introspection_cpp APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
+# Import target "pose_msg::pose_msg__rosidl_typesupport_introspection_cpp" for configuration "Release"
+set_property(TARGET pose_msg::pose_msg__rosidl_typesupport_introspection_cpp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(pose_msg::pose_msg__rosidl_typesupport_introspection_cpp PROPERTIES
-  IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libpose_msg__rosidl_typesupport_introspection_cpp.so"
-  IMPORTED_SONAME_NOCONFIG "libpose_msg__rosidl_typesupport_introspection_cpp.so"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libpose_msg__rosidl_typesupport_introspection_cpp.so"
+  IMPORTED_SONAME_RELEASE "libpose_msg__rosidl_typesupport_introspection_cpp.so"
   )
 
 list(APPEND _IMPORT_CHECK_TARGETS pose_msg::pose_msg__rosidl_typesupport_introspection_cpp )

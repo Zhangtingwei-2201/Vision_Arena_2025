@@ -1,3 +1,1 @@
-std_msgs/Header header
-Object[] objects             # 多个物体数组
-uint32 num_objects          # 物体数量
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/src/referee_pkg/msg/MultiObject.msg

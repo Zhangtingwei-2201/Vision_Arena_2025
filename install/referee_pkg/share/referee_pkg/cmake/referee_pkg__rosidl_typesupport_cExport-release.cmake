@@ -1,16 +1,16 @@
 #----------------------------------------------------------------
-# Generated CMake target import file.
+# Generated CMake target import file for configuration "Release".
 #----------------------------------------------------------------
 
 # Commands may need to know the format version.
 set(CMAKE_IMPORT_FILE_VERSION 1)
 
-# Import target "referee_pkg::referee_pkg__rosidl_typesupport_c" for configuration ""
-set_property(TARGET referee_pkg::referee_pkg__rosidl_typesupport_c APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
+# Import target "referee_pkg::referee_pkg__rosidl_typesupport_c" for configuration "Release"
+set_property(TARGET referee_pkg::referee_pkg__rosidl_typesupport_c APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(referee_pkg::referee_pkg__rosidl_typesupport_c PROPERTIES
-  IMPORTED_LINK_DEPENDENT_LIBRARIES_NOCONFIG "rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_c::rosidl_typesupport_c"
-  IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libreferee_pkg__rosidl_typesupport_c.so"
-  IMPORTED_SONAME_NOCONFIG "libreferee_pkg__rosidl_typesupport_c.so"
+  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE "rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_c::rosidl_typesupport_c"
+  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libreferee_pkg__rosidl_typesupport_c.so"
+  IMPORTED_SONAME_RELEASE "libreferee_pkg__rosidl_typesupport_c.so"
   )
 
 list(APPEND _IMPORT_CHECK_TARGETS referee_pkg::referee_pkg__rosidl_typesupport_c )

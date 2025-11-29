@@ -1,10 +1,1 @@
-msg/MultiObject.idl
-msg/MultiObject.msg
-msg/Object.idl
-msg/Object.msg
-msg/RaceStage.idl
-msg/RaceStage.msg
-srv/HitArmor.idl
-srv/HitArmor.srv
-srv/HitArmor_Request.msg
-srv/HitArmor_Response.msg
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/referee_pkg/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/referee_pkg

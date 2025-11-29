@@ -1,121 +1,177 @@
 # Vision_Arena_2025
 
-视觉校内赛裁判系统，提供简单例程共参考
-更新了摄像头参数的显示
+视觉校内赛裁判系统，提供简单例程供参考。
+更新：补充并规范了摄像头参数显示与使用说明。
 
-<font style="color:#DF2A3F;">**正式比赛运行时有所不同**</font>
+<font style="color:#DF2A3F;">注意：正式比赛环境与本地调试环境存在差异。</font>
 
-# 一、启动方法
-建议在非比赛阶段不使用docker进行工作
-## 裁判系统
-如有需要自行更改，下面仅作为示例
-```
+---
+
+## 一、启动方法
+
+
+### 1. 裁判系统
+示例启动命令（参数可按需修改）：
+```bash
 ros2 launch referee_pkg referee_pkg_launch.xml \
-    TeamName:="TEAMENAME" \
-    StageSelect:=0 \
-    ModeSelect:=0
+  TeamName:="TEAM1" \
 ```
-备赛期间选择起始阶段0，恒定模式0
-## gazebo
 
-运行摄像头仿真
-```
+#### 2 摄像头仿真（比赛时仅需运行此项）
+```bash
 ros2 launch camera_sim_pkg camera.launch.py
 ```
-   图像尺寸:
-     width = 640 像素
-     height = 640 像素
-     fps = 90 Hz
-     hfov = 1.047 
-   内参:
-   fx = 554.383 像素
-   fy = 554.383 像素
-   cx = 320 像素
-   cy = 320 像素
-**比赛时不需要以下操作，仅运行摄像头仿真**
-运行目标仿真
-```
-ros2 launch target_model_pkg target_action.launch.py
-```
-
-参数有：
-model 模型文件（路径src/target_model_pkg/urdf/）
-
-model_name 模型名字（不能生成名字一样的模型）<font style="color:#DF2A3F;">**识别要定义为[话题与服务消息说明](doc/Topic.md)下对应的模型名字**</font>(例如例程中使用的模型名字为sphere，这里的model_name也要写sphere)（**命名不同无法识别**）
+摄像头参数：
+- 图像尺寸：width = 1280 像素，height = 1280 像素
+- 帧率：fps = 90 Hz
+- 水平视场角：hfov = 1.047 rad
+- 内参：fx = 1108. 像素，fy = 1108.383 像素，cx = 640 像素，cy = 640 像素
 
 
-x ：x位置
+---
 
-y ：y位置
-
-z ：z位置
-
-roll ：roll位置
-例如(装甲板1)：
-```
-ros2 launch target_model_pkg target_action.launch.py model:=src/target_model_pkg/urdf/armor/armor_1.sdf model_name:=armor_1
-```
-默认是静止，如果运动的话
-```
-ros2 topic pub /type std_msgs/msg/Int32 "{data: 1}"
-```
-修改模型的位置
-```
-ros2 topic pub /pose geometry_msgs/msg/Pose "{position: {x: 1.0, y: 2.0, z: 0.5}}"
-```
-修改模型的位置和朝向
-如果不朝向摄像头，修改orientation参数为下面的四元数
-```
-ros2 topic pub /pose geometry_msgs/msg/Pose "{position: {x: 1.0, y: 2.0, z: 0.5}, orientation: {x: 0.0, y: 0.0, z: -0.7071, w: 0.7071}}"
-```
-## 示例选手端测试程序
-```
-ros2 run player_pkg TestNode
-```
-## docker tar 文件使用
-```
-# 从tar文件中读取镜像 其名成为 vision-vrena-2025:v0.1.2
+## 二、Docker 使用说明
+可以不使用 Docker 直接运行裁判系统与仿真环境。
+```bash
+# 从 tar 文件导入基础镜像（vision-vrena-2025:v0.1.2）
 docker load -i Vision-Vrena-2025.tar
 
-# 运行Dockerfile文件将选手的文件以及裁判系统文件移入以构造一个新的镜像其名称为vision-vrena-2025:v0.1.3
+# 构建新镜像，将选手与裁判系统文件打包（vision-vrena-2025:v0.1.3）
 docker build -t vision-vrena-2025:v0.1.3 .
 
-# 运行docker-compose.yml文件以镜像构造三个用dockernetwork链接可互相通信的容器
+# 使用 docker-compose 启动编排（构造三容器并通过网络互联）
 docker-compose up
 
-关闭容器
-docker-compose down 
-#备赛期间可以不使用docker-compose方式运行容器，直接运行单个容器，建立网络链接。
+# 关闭容器
+docker-compose down
 ```
 
-# 二、 文件结构
+---
 
-```
-├── README.md                # 项目说明文档
+## 三、文件结构
+```text
+├── README.md                 # 项目说明文档
 ├── install/                  # 编译安装目录
-├── src/                    # 例程源代码
+├── src/                      # 例程源代码
 ├── results/                  # 得分结果文件
-└── docs/                    # 完整文档
+└── docs/                     # 完整文档
 ```
 
+---
 
-# 三、文档导航
-**[launch文件使用说明](doc/launchsetting.md)**  
-launch文件参数说明及使用方法
+## 四、文档导航
+- [launch 文件使用说明](doc/launchsetting.md) —— 参数说明与用法
+- [目标发送要求](doc/objectpublic.md) —— 目标边缘点信息发布规范
+- [消息包说明](doc/objectmsg.md) —— 自定义消息包结构与字段
+- [话题与服务消息说明](doc/Topic.md) —— 系统交互的话题与服务接口
+- [比赛阶段说明](doc/state.md) —— 各比赛阶段的任务与评分
 
-**[目标发送要求](doc/objectpublic.md)**  
-目标边缘点信息发送要求
+---
 
-**[消息包说明](doc/objectmsg.md)**
+## 五、分数统计示例
 
-消息包结构及说明
+### STAGE_1
+log 示例：
+```
+ErrorResults 
+  stamp : 2025-09-30T10:41:14Z
+  target_type : Ring_red
+  model_name : Ring_red
+  pose : 
+       - position : [-1.00259 , 6.98567 , 0.959323]
+       - orientation : [-5.65481e-07 , -7.45499e-07 , -0.707106 , 0.707107]
+  RingCirclePositionError : 0.474806
+  position_error : 0.043206
+  orientation_error : 0
+  found_in_gazebo : 1
+```
+字段说明：
+1. stamp：log 输出时间
+2. target_type / model_name：模型名称
+3. pose-position：根据选手发布的像素坐标计算的位置信息
+4. pose-orientation：四元数（未归一化，供参考）
+5. RingCirclePositionError：圆环内外圆心位置差值（计分）
+6. position_error：识别精度误差（取两圆中较小者，计分）
+7. orientation_error：不计分
+8. found_in_gazebo：恒为 1
 
-**[话题与服务消息说明](doc/Topic.md)**
+json 示例：
+```json
+{
+  "RaceStage1": {
+    "average_orientationerror": 0.0,
+    "average_positionerror": 0.043,
+    "average_ringcentererror": 0.475,
+    "fps": 27,
+    "run_id": "458bb861-5716-47cc-bffa-e5adbf082ab8",
+    "score": 13.0,
+    "target_type": "Ring_red",
+    "timestamp": "2025-09-30T10:41:31Z"
+  },
+  "team_name": "TEAMENAME"
+}
+```
+1. team_name 队伍名称
+2. RaceStage1 该键指明其内信息所属阶段（比赛结束后其所展示的分数即为该阶段分数)
+3. average_orientationerror 同log
+4. average_positionerror 同log,计入分数
+5. average_ringcentererror 同log，计入分数
+6. fps 选手在单位时间内的识别次数,计入分数(单位时间为 1s)
+7. run_id 运行id
+8. score 最后得分
+9. target_type 同lod
+10. timestamp  同lod
+### STAGE_2
+log 示例：
+```
+ErrorResults 
+  stamp : 2025-09-30T11:07:00Z
+  target_type : arrow
+  model_name : arrow
+  pose : 
+       - position : [-1.00603 , 7.00915 , 0.95798]
+       - orientation : [0.635928 , -0.60991 , 0.322392 , -0.34593]
+  RingCirclePositionError : 0
+  position_error : 0.0434259
+  orientation_error : 2.06512
+  found_in_gazebo : 1
+```
+字段说明：
+1. stamp：log 输出时间
+2. target_type / model_name：模型名称
+3. pose-position：根据选手发布的像素坐标计算的位置信息
+4. pose-orientation：四元数（未归一化）
+5. RingCirclePositionError：此阶段无用
+6. position_error：识别精度误差（计分）
+7. orientation_error：方向误差
+8. found_in_gazebo：恒为 1
 
- 话题与服务消息说明  
+json 示例：
+```json
+{
+  "RaceStage2": {
+    "average_directerror": 2.567,
+    "average_positionerror": 0.876,
+    "fps": 48,
+    "max_positionerror": 3.064,
+    "run_id": "d976942f-0ffa-441f-8451-912be3defa77",
+    "score": 9.0,
+    "target_type": "Arrow_red",
+    "timestamp": "2025-09-30T11:07:29Z"
+  },
+  "team_name": "TEAMENAME"
+}
+```
+1. team_name 队伍名称
+2. RaceStage2 该键指明其内信息所属阶段（比赛结束后其所展示的分数即为该阶段分数)
+3. average_orientationerror 同log
+4. average_positionerror 同log,计入分数
+5. fps 选手在单位时间内的识别次数,计入分数(单位时间为 1s)
+6. run_id 运行id
+7. score 最后得分
+8. target_type 同lod
+9. timestamp  同lod
+---
 
-
-**最后更新时间**：2025年9月30日  
-**当前版本**：v1.0.0
-
-
+最后更新时间：2025-11-20  
+当前版本：v1.0.1

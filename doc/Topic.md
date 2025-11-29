@@ -26,5 +26,7 @@ referee_pkg::msg::MultiObject
 "armor_red_3",   // 装甲板3
 "armor_red_4",   // 装甲板4
 "armor_red_5",   // 装甲板5
+“arrow” // 箭头
+"Ring_red",   // 环
 "rect",   // 矩形
 "rect_move"   // 移动矩形

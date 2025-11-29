@@ -17,3 +17,15 @@
   长0.705, 宽0.230（宽度是灯条的宽度）
 
   ![armor](../resource/armor1.png)
+## 环
+发送内外层环上的四个点，左点为起始逆时针方向的四个点
+类似球的发送方式
+
+
+  ![Ring_red](../resource/Ring_red.png)
+## 箭头
+发送箭头外接矩形上的四个点，（<font style="color:#DF2A3F;">严格按照顺序发送</font> ）
+左上点为起始顺时针方向的四个点
+
+
+  ![arror](../resource/arror.png)

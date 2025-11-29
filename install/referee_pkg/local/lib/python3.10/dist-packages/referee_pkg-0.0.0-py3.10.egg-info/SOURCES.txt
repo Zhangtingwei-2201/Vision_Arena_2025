@@ -1,12 +1,1 @@
-setup.py
-referee_pkg/__init__.py
-referee_pkg.egg-info/PKG-INFO
-referee_pkg.egg-info/SOURCES.txt
-referee_pkg.egg-info/dependency_links.txt
-referee_pkg.egg-info/top_level.txt
-referee_pkg/msg/__init__.py
-referee_pkg/msg/_multi_object.py
-referee_pkg/msg/_object.py
-referee_pkg/msg/_race_stage.py
-referee_pkg/srv/__init__.py
-referee_pkg/srv/_hit_armor.py
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/referee_pkg/ament_cmake_python/referee_pkg/referee_pkg.egg-info/SOURCES.txt

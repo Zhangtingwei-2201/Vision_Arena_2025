@@ -1,1 +1,1 @@
-from referee_pkg.srv._hit_armor import HitArmor  # noqa: F401
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/referee_pkg/rosidl_generator_py/referee_pkg/srv/__init__.py

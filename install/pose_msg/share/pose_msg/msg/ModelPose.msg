@@ -1,2 +1,1 @@
-string name
-geometry_msgs/Pose pose
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/ros_gazebo_plugin/msg/pose_msg/msg/ModelPose.msg

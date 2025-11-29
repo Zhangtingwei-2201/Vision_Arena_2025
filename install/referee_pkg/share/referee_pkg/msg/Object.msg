@@ -1,2 +1,1 @@
-string target_type           # 目标类型，如 "armor_1", "circle_red"
-geometry_msgs/Point[] corners  # 四个角点的像素坐标
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/src/referee_pkg/msg/Object.msg

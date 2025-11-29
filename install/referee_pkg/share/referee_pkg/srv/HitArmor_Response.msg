@@ -1,4 +1,1 @@
-
-float64 yaw
-float64 pitch
-float64 roll
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/build/referee_pkg/rosidl_cmake/srv/HitArmor_Response.msg

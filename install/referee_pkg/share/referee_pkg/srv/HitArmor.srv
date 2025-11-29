@@ -1,7 +1,1 @@
-geometry_msgs/Point[] modelpoint
-std_msgs/Header header
-float64 g
----
-float64 yaw
-float64 pitch
-float64 roll
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/src/referee_pkg/srv/HitArmor.srv

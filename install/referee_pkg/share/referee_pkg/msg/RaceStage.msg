@@ -1,1 +1,1 @@
-int32 stage
+/home/zjzl/Desktop/New_Referee/V_0.01/Vision_Arena_2025/src/referee_pkg/msg/RaceStage.msg
